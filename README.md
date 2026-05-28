@@ -1,4 +1,4 @@
-# 💻 Hoja de Vida Web – Carlos Andrés Mora Rincón
+# 💻 Hoja de Vida Web – Jonathan Camilo Herrera Camacho
 
 Sitio web personal creado como proyecto académico para la asignatura de **Desarrollo Web** en la Universidad Compensar.
 
