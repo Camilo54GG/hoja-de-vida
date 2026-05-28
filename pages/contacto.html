@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Carlos Mora | Contacto</title>
+  <link rel="stylesheet" href="../css/styles.css" />
+</head>
+<body>
+
+  <!-- ===== NAVEGACIÓN ===== -->
+  <nav>
+    <a href="../index.html" class="nav-logo">&lt;<span>Carlos</span>/&gt;</a>
+    <ul>
+      <li><a href="../index.html">Inicio</a></li>
+      <li><a href="experiencia.html">Experiencia</a></li>
+      <li><a href="proyectos.html">Proyectos</a></li>
+      <li><a href="contacto.html" class="activo">Contacto</a></li>
+    </ul>
+  </nav>
+
+  <!-- ===== ENCABEZADO ===== -->
+  <div class="page-header">
+    <h1>Ponte en <span>Contacto</span></h1>
+    <p>// ¡Siempre estoy dispuesto a escuchar nuevas oportunidades!</p>
+  </div>
+
+  <section>
+
+    <!-- Intro -->
+    <p style="color:#cccccc; margin-bottom:40px; max-width:600px;">
+      Si tienes una oferta, una pregunta, o simplemente quieres saludar, 
+      puedes escribirme por aquí o directamente al correo. 
+      Trato de responder dentro de las <strong style="color:var(--verde)">24 horas</strong> siguientes.
+    </p>
+
+    <!-- Layout de dos columnas -->
+    <div style="display:grid; grid-template-columns:1fr 1fr; gap:40px; align-items:start;">
+
+      <!-- ===== FORMULARIO ===== -->
+      <div>
+        <h2 class="seccion-titulo" style="font-size:1.2rem;"><span>//</span> Envíame un mensaje</h2>
+
+        <div class="form-grupo">
+          <label for="nombre">Nombre completo</label>
+          <input type="text" id="nombre" name="nombre" placeholder="Tu nombre" />
+        </div>
+
+        <div class="form-grupo">
+          <label for="correo">Correo electrónico</label>
+          <input type="email" id="correo" name="correo" placeholder="tu@correo.com" />
+        </div>
+
+        <div class="form-grupo">
+          <label for="asunto">Asunto</label>
+          <select id="asunto" name="asunto">
+            <option value="">Selecciona un asunto</option>
+            <option value="trabajo">Oferta laboral</option>
+            <option value="practica">Práctica / Pasantía</option>
+            <option value="freelance">Proyecto freelance</option>
+            <option value="otro">Otro</option>
+          </select>
+        </div>
+
+        <div class="form-grupo">
+          <label for="mensaje">Mensaje</label>
+          <textarea id="mensaje" name="mensaje" placeholder="Escribe tu mensaje aquí..."></textarea>
+        </div>
+
+        <button class="btn" onclick="alert('¡Gracias por escribir! (Formulario de demostración)')">
+          Enviar mensaje 📨
+        </button>
+
+        <p style="color:var(--gris); font-size:0.82rem; margin-top:12px;">
+          * Este formulario es de demostración. Para contacto real usa el correo de abajo.
+        </p>
+      </div>
+
+      <!-- ===== INFORMACIÓN DE CONTACTO ===== -->
+      <div>
+        <h2 class="seccion-titulo" style="font-size:1.2rem;"><span>//</span> Información de contacto</h2>
+
+        <div class="card" style="margin-bottom:16px;">
+          <h3 style="font-size:1rem;">📧 Correo electrónico</h3>
+          <p style="margin-top:6px;">
+            <a href="mailto:carlos.mora@correo.com" style="color:var(--verde); text-decoration:none;">
+              carlos.mora@correo.com
+            </a>
+          </p>
+        </div>
+
+        <div class="card" style="margin-bottom:16px;">
+          <h3 style="font-size:1rem;">📞 Teléfono / WhatsApp</h3>
+          <p style="margin-top:6px;">
+            <a href="tel:+573104567890" style="color:var(--verde); text-decoration:none;">
+              +57 310 456 7890
+            </a>
+          </p>
+        </div>
+
+        <div class="card" style="margin-bottom:16px;">
+          <h3 style="font-size:1rem;">🐙 GitHub</h3>
+          <p style="margin-top:6px;">
+            <a href="https://github.com/" target="_blank" style="color:var(--verde); text-decoration:none;">
+              github.com/carlosmora
+            </a>
+          </p>
+        </div>
+
+        <div class="card" style="margin-bottom:16px;">
+          <h3 style="font-size:1rem;">💼 LinkedIn</h3>
+          <p style="margin-top:6px;">
+            <a href="https://linkedin.com/" target="_blank" style="color:var(--verde); text-decoration:none;">
+              linkedin.com/in/carlosmora
+            </a>
+          </p>
+        </div>
+
+        <div class="card">
+          <h3 style="font-size:1rem;">📍 Ubicación</h3>
+          <p style="margin-top:6px; color:#cccccc;">Bogotá, Colombia 🇨🇴</p>
+          <p style="color:var(--gris); font-size:0.85rem; margin-top:4px;">
+            Disponible para trabajo remoto o en la ciudad.
+          </p>
+        </div>
+
+        <hr class="divisor" />
+
+        <!-- Disponibilidad -->
+        <div style="background-color:rgba(46,204,113,0.08); border:1px solid var(--verde); 
+                    border-radius:8px; padding:20px; margin-top:10px;">
+          <h3 style="color:var(--verde); margin-bottom:8px; font-size:1rem;">
+            ✅ Estado actual: Disponible
+          </h3>
+          <p style="color:#cccccc; font-size:0.9rem;">
+            Estoy buscando práctica, trabajo de medio tiempo o proyectos freelance 
+            mientras termino mis estudios. ¡No dudes en escribirme!
+          </p>
+        </div>
+      </div>
+
+    </div>
+
+    <hr class="divisor" />
+
+    <!-- Sección de mapa (placeholder) -->
+    <h2 class="seccion-titulo"><span>//</span> ¿Dónde estoy?</h2>
+    <div style="background-color:var(--azul-medio); border:1px solid var(--azul-panel); 
+                border-radius:8px; padding:30px; text-align:center; color:var(--gris);">
+      <p style="font-size:2rem; margin-bottom:10px;">📍</p>
+      <p><strong style="color:var(--blanco)">Bogotá, Colombia</strong></p>
+      <p style="font-size:0.88rem; margin-top:6px;">
+        Universidad Compensar · Sede Bogotá<br/>
+        Disponible presencialmente en Bogotá y remotamente desde cualquier lugar.
+      </p>
+    </div>
+
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer>
+    <div class="redes">
+      <a href="https://github.com/" target="_blank">GitHub</a>
+      <a href="https://linkedin.com/" target="_blank">LinkedIn</a>
+      <a href="contacto.html">Contacto</a>
+    </div>
+    <p>Hecho con <span style="color:var(--acento)">♥</span> por Carlos Mora · 
+       <span class="codigo text-verde">carlos.mora@correo.com</span>
+    </p>
+    <p style="margin-top:6px; font-size:0.8rem;">Universidad Compensar · Ingeniería de Sistemas · 2025</p>
+  </footer>
+
+</body>
+</html>

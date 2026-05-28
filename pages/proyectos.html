@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Carlos Mora | Proyectos</title>
+  <link rel="stylesheet" href="../css/styles.css" />
+</head>
+<body>
+
+  <!-- ===== NAVEGACIÓN ===== -->
+  <nav>
+    <a href="../index.html" class="nav-logo">&lt;<span>Carlos</span>/&gt;</a>
+    <ul>
+      <li><a href="../index.html">Inicio</a></li>
+      <li><a href="experiencia.html">Experiencia</a></li>
+      <li><a href="proyectos.html" class="activo">Proyectos</a></li>
+      <li><a href="contacto.html">Contacto</a></li>
+    </ul>
+  </nav>
+
+  <!-- ===== ENCABEZADO ===== -->
+  <div class="page-header">
+    <h1>Mis <span>Proyectos</span></h1>
+    <p>// Cosas que he construido durante el estudio</p>
+  </div>
+
+  <section>
+    <p style="color:#cccccc; margin-bottom:40px;">
+      Estos son algunos proyectos que he realizado en la universidad y por cuenta propia. 
+      La mayoría son trabajos académicos pero también hay experimentos personales. 
+      Todos los repositorios están en mi <a href="https://github.com/" target="_blank" style="color:var(--verde)">GitHub</a>.
+    </p>
+
+    <!-- ===== PROYECTO 1 ===== -->
+    <h2 class="seccion-titulo"><span>Web</span> Desarrollo Web</h2>
+
+    <div class="proyecto-card">
+      <h3>🌐 Esta Hoja de Vida – Sitio Personal</h3>
+      <div class="tipo">// HTML · CSS · GitHub Pages</div>
+      <p>
+        Sitio web personal con múltiples páginas enlazadas (index, experiencia, proyectos, contacto). 
+        Diseñado con HTML semántico y CSS propio desde cero, sin frameworks. 
+        Alojado en GitHub Pages como parte de la asignatura de Desarrollo Web.
+      </p>
+      <div class="tech-badges">
+        <span class="badge">HTML5</span>
+        <span class="badge">CSS3</span>
+        <span class="badge">GitHub Pages</span>
+      </div>
+      <div style="margin-top:14px;">
+        <a href="https://github.com/" target="_blank" class="btn btn-outline" style="font-size:0.82rem;padding:8px 16px;">Ver en GitHub</a>
+      </div>
+    </div>
+
+    <div class="proyecto-card">
+      <h3>🛒 Página de Catálogo de Productos (ejercicio)</h3>
+      <div class="tipo">// HTML · CSS · Tablas y Flexbox</div>
+      <p>
+        Ejercicio universitario donde se construyó una tienda en línea básica usando solo HTML y CSS. 
+        Incluye una grilla de productos con imágenes, precios y descripción, 
+        navegación entre páginas y un formulario de contacto simulado.
+      </p>
+      <div class="tech-badges">
+        <span class="badge">HTML5</span>
+        <span class="badge">CSS Flexbox</span>
+        <span class="badge">Formularios</span>
+      </div>
+    </div>
+
+    <hr class="divisor" />
+
+    <!-- ===== PROYECTO 2 ===== -->
+    <h2 class="seccion-titulo"><span>BD</span> Bases de Datos</h2>
+
+    <div class="proyecto-card">
+      <h3>🗄️ Sistema de Biblioteca – Base de Datos</h3>
+      <div class="tipo">// MySQL · Modelado Relacional</div>
+      <p>
+        Proyecto final de la materia de Bases de Datos. Se diseñó un modelo entidad-relación 
+        para una biblioteca universitaria con tablas de libros, autores, usuarios, préstamos y sanciones. 
+        Se implementaron consultas complejas con JOIN, vistas y un procedimiento almacenado 
+        para gestionar devoluciones.
+      </p>
+      <div class="tech-badges">
+        <span class="badge">MySQL</span>
+        <span class="badge">ER Diagram</span>
+        <span class="badge">Stored Procedures</span>
+        <span class="badge">SQL</span>
+      </div>
+    </div>
+
+    <div class="proyecto-card">
+      <h3>📊 Consultas SQL Avanzadas – Ejercicios</h3>
+      <div class="tipo">// SQL · MySQL Workbench</div>
+      <p>
+        Repositorio con más de 30 ejercicios de SQL que van desde consultas básicas SELECT 
+        hasta subconsultas, funciones de agregación, HAVING y consultas sobre múltiples tablas. 
+        Realizados como práctica personal para reforzar los conocimientos de la materia.
+      </p>
+      <div class="tech-badges">
+        <span class="badge">MySQL</span>
+        <span class="badge">SQL</span>
+      </div>
+      <div style="margin-top:14px;">
+        <a href="https://github.com/" target="_blank" class="btn btn-outline" style="font-size:0.82rem;padding:8px 16px;">Ver en GitHub</a>
+      </div>
+    </div>
+
+    <hr class="divisor" />
+
+    <!-- ===== PROYECTO 3 ===== -->
+    <h2 class="seccion-titulo"><span>Py</span> Python y Algoritmos</h2>
+
+    <div class="proyecto-card">
+      <h3>🎮 Juego de Ahorcado en Python</h3>
+      <div class="tipo">// Python · Consola</div>
+      <p>
+        Implementación del clásico juego del ahorcado en la terminal usando Python. 
+        Maneja diccionario de palabras, intentos limitados, visualización ASCII del muñeco 
+        y lectura de input del usuario. Fue el proyecto final del curso de Python en Platzi.
+      </p>
+      <div class="tech-badges">
+        <span class="badge">Python</span>
+        <span class="badge">Lógica</span>
+        <span class="badge">Terminal</span>
+      </div>
+      <div style="margin-top:14px;">
+        <a href="https://github.com/" target="_blank" class="btn btn-outline" style="font-size:0.82rem;padding:8px 16px;">Ver código</a>
+      </div>
+    </div>
+
+    <div class="proyecto-card">
+      <h3>📋 Gestión de Contactos en Python</h3>
+      <div class="tipo">// Python · POO · Archivos</div>
+      <p>
+        Pequeña aplicación en consola para guardar y buscar contactos. 
+        Usa clases (POO), guarda los datos en archivos de texto (.txt) 
+        y permite agregar, buscar, listar y eliminar contactos. 
+        Proyecto personal para practicar manejo de archivos en Python.
+      </p>
+      <div class="tech-badges">
+        <span class="badge">Python</span>
+        <span class="badge">POO</span>
+        <span class="badge">Archivos</span>
+      </div>
+    </div>
+
+    <hr class="divisor" />
+
+    <!-- ===== PROYECTO 4 ===== -->
+    <h2 class="seccion-titulo"><span>☕</span> Java y POO</h2>
+
+    <div class="proyecto-card">
+      <h3>🏦 Simulación de Cuenta Bancaria</h3>
+      <div class="tipo">// Java · POO · Encapsulamiento</div>
+      <p>
+        Proyecto de la materia de Programación Orientada a Objetos. 
+        Se modeló una cuenta bancaria con clases, herencia (cuenta corriente y de ahorros), 
+        encapsulamiento, constructores y métodos de depósito/retiro con validaciones. 
+        Todo en Java con BlueJ.
+      </p>
+      <div class="tech-badges">
+        <span class="badge">Java</span>
+        <span class="badge">POO</span>
+        <span class="badge">Herencia</span>
+        <span class="badge">BlueJ</span>
+      </div>
+    </div>
+
+    <!-- ===== PRÓXIMOS PROYECTOS ===== -->
+    <hr class="divisor" />
+
+    <h2 class="seccion-titulo"><span>🚀</span> Próximamente</h2>
+
+    <div class="card" style="opacity:0.6; border-style:dashed;">
+      <h3>API REST con Flask (Python)</h3>
+      <div class="institucion">En construcción · 2025</div>
+      <p>Planeo construir una pequeña API para gestión de tareas usando Flask y SQLite. Todavía en fase de diseño.</p>
+    </div>
+
+    <div class="card" style="opacity:0.6; border-style:dashed;">
+      <h3>Portafolio mejorado con JavaScript</h3>
+      <div class="institucion">En planeación · 2025</div>
+      <p>Mejorar este sitio agregando interactividad con JS: modo claro/oscuro, animaciones y filtros en proyectos.</p>
+    </div>
+
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer>
+    <div class="redes">
+      <a href="https://github.com/" target="_blank">GitHub</a>
+      <a href="https://linkedin.com/" target="_blank">LinkedIn</a>
+      <a href="contacto.html">Contacto</a>
+    </div>
+    <p>Hecho con <span style="color:var(--acento)">♥</span> por Carlos Mora · 
+       <span class="codigo text-verde">carlos.mora@correo.com</span>
+    </p>
+    <p style="margin-top:6px; font-size:0.8rem;">Universidad Compensar · Ingeniería de Sistemas · 2025</p>
+  </footer>
+
+</body>
+</html>

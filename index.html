@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Hoja de vida de Carlos Andrés Mora Rincón, estudiante de Ingeniería de Sistemas." />
+  <title>Carlos Mora | Inicio</title>
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+
+  <!-- ===== NAVEGACIÓN ===== -->
+  <nav>
+    <a href="index.html" class="nav-logo">&lt;<span>Carlos</span>/&gt;</a>
+    <ul>
+      <li><a href="index.html" class="activo">Inicio</a></li>
+      <li><a href="pages/experiencia.html">Experiencia</a></li>
+      <li><a href="pages/proyectos.html">Proyectos</a></li>
+      <li><a href="pages/contacto.html">Contacto</a></li>
+    </ul>
+  </nav>
+
+  <!-- ===== HERO ===== -->
+  <div class="hero">
+    <!-- Imagen representativa (avatar con iniciales como placeholder) -->
+    <div style="width:150px;height:150px;border-radius:50%;border:4px solid var(--verde);
+                background:linear-gradient(135deg,#16213e,#0f3460);
+                display:flex;align-items:center;justify-content:center;
+                margin:0 auto 20px;font-size:3rem;font-weight:800;color:var(--verde);
+                box-shadow:0 0 25px rgba(46,204,113,0.4);">
+      CM
+    </div>
+    <h1>Carlos Andrés <span>Mora Rincón</span></h1>
+    <p class="subtitulo">// Estudiante de Ingeniería de Sistemas</p>
+    <p class="descripcion">
+      Apasionado por el desarrollo de software, las bases de datos y la tecnología.
+      Actualmente en 5to semestre buscando aprender y crecer en el mundo IT.
+    </p>
+    <a href="pages/proyectos.html" class="btn">Ver mis proyectos</a>
+    <a href="pages/contacto.html" class="btn btn-outline">Contáctame</a>
+  </div>
+
+  <!-- ===== INFORMACIÓN PERSONAL ===== -->
+  <section>
+    <h2 class="seccion-titulo"><span>01.</span> Sobre mí</h2>
+
+    <p style="color:#cccccc; margin-bottom:20px;">
+      Soy estudiante de <strong style="color:var(--blanco)">Ingeniería de Sistemas</strong> en la Universidad Compensar, 
+      con interés en el desarrollo web, la programación orientada a objetos y la gestión de bases de datos. 
+      Me gusta resolver problemas con código limpio y eficiente. Siempre estoy buscando nuevos retos y 
+      oportunidades para mejorar mis habilidades técnicas.
+    </p>
+
+    <p style="color:#cccccc; margin-bottom:30px;">
+      Cuando no estoy estudiando o programando, disfruto jugar videojuegos, escuchar música y aprender 
+      cosas nuevas sobre tecnología en internet.
+    </p>
+
+    <hr class="divisor" />
+
+    <!-- Datos personales en grilla -->
+    <h3 class="codigo text-verde" style="margin-bottom:16px;">// Datos personales</h3>
+    <div class="datos-grid">
+      <div class="dato-item">
+        <span class="dato-icono">👤</span>
+        <div>
+          <div class="dato-label">Nombre completo</div>
+          <div class="dato-valor">Carlos Andrés Mora Rincón</div>
+        </div>
+      </div>
+      <div class="dato-item">
+        <span class="dato-icono">📅</span>
+        <div>
+          <div class="dato-label">Fecha de nacimiento</div>
+          <div class="dato-valor">12 de marzo de 2002</div>
+        </div>
+      </div>
+      <div class="dato-item">
+        <span class="dato-icono">📍</span>
+        <div>
+          <div class="dato-label">Ciudad</div>
+          <div class="dato-valor">Bogotá, Colombia</div>
+        </div>
+      </div>
+      <div class="dato-item">
+        <span class="dato-icono">📧</span>
+        <div>
+          <div class="dato-label">Correo electrónico</div>
+          <div class="dato-valor">carlos.mora@correo.com</div>
+        </div>
+      </div>
+      <div class="dato-item">
+        <span class="dato-icono">📞</span>
+        <div>
+          <div class="dato-label">Teléfono</div>
+          <div class="dato-valor">+57 310 456 7890</div>
+        </div>
+      </div>
+      <div class="dato-item">
+        <span class="dato-icono">🎓</span>
+        <div>
+          <div class="dato-label">Semestre actual</div>
+          <div class="dato-valor">5to semestre (2025)</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <hr class="divisor" style="max-width:1000px;margin:0 auto;" />
+
+  <!-- ===== EDUCACIÓN ===== -->
+  <section>
+    <h2 class="seccion-titulo"><span>02.</span> Educación</h2>
+
+    <div class="card">
+      <h3>Ingeniería de Sistemas</h3>
+      <div class="institucion">Universidad Compensar · Bogotá</div>
+      <div class="periodo">📅 2023 - Actualidad</div>
+      <p>
+        Carrera enfocada en el diseño, desarrollo y gestión de sistemas informáticos. 
+        Materias cursadas: Algoritmos, POO, Bases de Datos, Redes, Ingeniería de Software, 
+        Desarrollo Web, Matemáticas Discretas.
+      </p>
+    </div>
+
+    <div class="card">
+      <h3>Bachiller Académico</h3>
+      <div class="institucion">Colegio Técnico Menorah · Bogotá</div>
+      <div class="periodo">📅 2009 - 2022</div>
+      <p>
+        Educación media con énfasis en ciencias. Integrante del grupo de robótica escolar 
+        durante los grados 10mo y 11vo. Graduado con honores.
+      </p>
+    </div>
+
+    <div class="card">
+      <h3>Curso: Fundamentos de Python</h3>
+      <div class="institucion">Platzi · En línea</div>
+      <div class="periodo">📅 2024</div>
+      <p>
+        Certificación en programación con Python. Cubrió fundamentos del lenguaje, 
+        manejo de archivos, funciones y programación orientada a objetos básica.
+      </p>
+    </div>
+  </section>
+
+  <hr class="divisor" style="max-width:1000px;margin:0 auto;" />
+
+  <!-- ===== HABILIDADES (TABLA) ===== -->
+  <section>
+    <h2 class="seccion-titulo"><span>03.</span> Habilidades técnicas</h2>
+
+    <table class="tabla-habilidades">
+      <thead>
+        <tr>
+          <th>Tecnología / Herramienta</th>
+          <th>Categoría</th>
+          <th>Nivel</th>
+          <th>Barra visual</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><strong>HTML5 &amp; CSS3</strong></td>
+          <td>Desarrollo Web</td>
+          <td class="text-verde">Intermedio</td>
+          <td><div class="nivel-barra"><div class="nivel-fill" style="width:70%"></div></div></td>
+        </tr>
+        <tr>
+          <td><strong>JavaScript</strong></td>
+          <td>Desarrollo Web</td>
+          <td class="text-verde">Básico-Intermedio</td>
+          <td><div class="nivel-barra"><div class="nivel-fill" style="width:50%"></div></div></td>
+        </tr>
+        <tr>
+          <td><strong>Python</strong></td>
+          <td>Programación</td>
+          <td class="text-verde">Intermedio</td>
+          <td><div class="nivel-barra"><div class="nivel-fill" style="width:60%"></div></div></td>
+        </tr>
+        <tr>
+          <td><strong>Java</strong></td>
+          <td>Programación (POO)</td>
+          <td class="text-verde">Básico</td>
+          <td><div class="nivel-barra"><div class="nivel-fill" style="width:40%"></div></div></td>
+        </tr>
+        <tr>
+          <td><strong>MySQL / SQL</strong></td>
+          <td>Bases de Datos</td>
+          <td class="text-verde">Intermedio</td>
+          <td><div class="nivel-barra"><div class="nivel-fill" style="width:65%"></div></div></td>
+        </tr>
+        <tr>
+          <td><strong>Git &amp; GitHub</strong></td>
+          <td>Control de Versiones</td>
+          <td class="text-verde">Básico-Intermedio</td>
+          <td><div class="nivel-barra"><div class="nivel-fill" style="width:55%"></div></div></td>
+        </tr>
+        <tr>
+          <td><strong>Linux (Ubuntu)</strong></td>
+          <td>Sistemas Operativos</td>
+          <td class="text-verde">Básico</td>
+          <td><div class="nivel-barra"><div class="nivel-fill" style="width:35%"></div></div></td>
+        </tr>
+        <tr>
+          <td><strong>Microsoft Office</strong></td>
+          <td>Ofimática</td>
+          <td class="text-verde">Avanzado</td>
+          <td><div class="nivel-barra"><div class="nivel-fill" style="width:85%"></div></div></td>
+        </tr>
+      </tbody>
+    </table>
+  </section>
+
+  <hr class="divisor" style="max-width:1000px;margin:0 auto;" />
+
+  <!-- ===== IDIOMAS ===== -->
+  <section>
+    <h2 class="seccion-titulo"><span>04.</span> Idiomas</h2>
+    <div class="idiomas-lista">
+      <div class="idioma-card">
+        <span class="bandera">🇨🇴</span>
+        <span class="nombre">Español</span>
+        <span class="nivel-texto">Nativo</span>
+      </div>
+      <div class="idioma-card">
+        <span class="bandera">🇺🇸</span>
+        <span class="nombre">Inglés</span>
+        <span class="nivel-texto">B1 - Intermedio</span>
+      </div>
+    </div>
+  </section>
+
+  <hr class="divisor" style="max-width:1000px;margin:0 auto;" />
+
+  <!-- ===== HOBBIES E INTERESES ===== -->
+  <section>
+    <h2 class="seccion-titulo"><span>05.</span> Intereses y hobbies</h2>
+    <p style="color:#cccccc; margin-bottom:20px;">
+      Fuera del ámbito académico, me interesan:
+    </p>
+    <div class="hobbies-grid">
+      <span class="hobby-tag">🎮 Videojuegos</span>
+      <span class="hobby-tag">💻 Open Source</span>
+      <span class="hobby-tag">🎵 Música</span>
+      <span class="hobby-tag">📚 Lectura de tecnología</span>
+      <span class="hobby-tag">🤖 Inteligencia Artificial</span>
+      <span class="hobby-tag">🚴 Ciclismo</span>
+      <span class="hobby-tag">🔐 Ciberseguridad</span>
+      <span class="hobby-tag">📷 Fotografía casual</span>
+    </div>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer>
+    <div class="redes">
+      <a href="https://github.com/" target="_blank">GitHub</a>
+      <a href="https://linkedin.com/" target="_blank">LinkedIn</a>
+      <a href="pages/contacto.html">Contacto</a>
+    </div>
+    <p>Hecho con <span style="color:var(--acento)">♥</span> por Carlos Mora · 
+       <span class="codigo text-verde">carlos.mora@correo.com</span>
+    </p>
+    <p style="margin-top:6px; font-size:0.8rem;">Universidad Compensar · Ingeniería de Sistemas · 2025</p>
+  </footer>
+
+</body>
+</html>
