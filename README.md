@@ -4,7 +4,7 @@ Sitio web personal creado como proyecto académico para la asignatura de **Desar
 
 ## 🔗 Ver sitio en línea
 
-> **[https://carlosmora.github.io/hoja-de-vida](https://carlosmora.github.io/hoja-de-vida)**
+> **[https://carlosmora.github.io/hoja-de-vida](https://Camilo54GG.github.io/hoja-de-vida)**
 
 ---
 
